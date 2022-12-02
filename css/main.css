@@ -1,0 +1,386 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Remove this rule on your HTML elements as you start to fill them with content*/
+
+.box-color {
+	color: #fff;
+	background: rgb(187, 124, 207);
+	text-align: center;
+}
+
+
+div,p,body,header,footer,section,article,nav { 
+	margin: 0; 
+	padding: 0; 
+}	
+
+
+
+/*html selectors*/
+
+body {
+	margin: 0;
+    padding: 0;
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+/* Remove underlines from links */
+
+a {
+	text-decoration: none;
+}
+
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden {
+	display: none;
+}
+
+
+
+#container {
+	margin: 0 auto;
+	width: 1920px;
+	background-color:#e4b394;
+}
+
+/* this is our grid based off of our XD file */
+.grid-con {
+	display: grid;
+	grid-template-columns: repeat(12, 122px);
+	grid-column-gap: 16px;
+	padding-left: 140px;
+	padding-right: 140px;
+}
+
+#header-con {
+	background-color: #e4b394;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+#logo {
+	grid-column: 1/3;
+	height: 50px;
+	
+	
+}
+
+#login{
+	margin-left: 1300px;
+	
+	height: 50px;
+	
+}
+
+#main-nav ul{
+	
+	background:#c4ddd8;
+	height: 80px;
+	border-radius: 50px;
+	margin-left: 120px;
+	margin-right: 120px;
+	padding-left: 100px;
+	margin-top: 40px;
+	
+	
+}
+#main-nav li{
+	grid-column: 6/11;
+	
+    display: inline-block;
+	
+	margin-right: 70px;
+	font-size:30px;
+	margin-top: 18px;
+	
+
+
+}
+.box-color2 {
+	
+
+	text-align: center;
+	border-radius: 50px;
+	margin-top: 20px;
+
+
+}
+
+
+#hero-text {
+	grid-column: 1/6;
+    color: black;
+	margin-top: 200px;
+	
+}
+#hero-text { font-weight: bolder;
+}
+#hero-text h3 {
+	text-align: right;
+	margin-right: 40px;
+	}
+#hero-text h3::after {
+        content :'\2B95';
+}
+#hero-image {
+	grid-column: 8/-1;
+	height: 542px;
+    border: 20px solid #bc652e;
+	margin-top:30px;
+	border-radius: 30px;
+}
+	
+
+#tape {
+	margin-top: 100px;
+}
+#designer {
+	margin-top:-5px;
+	margin-bottom: 100px;
+	background-color: #c4ddd8;
+}
+
+#designer h1 {
+	grid-column: 1/-1;
+	padding-top: 50px;
+	margin-bottom: 40px;
+	color: black;
+}
+
+#designer1 img{
+	grid-column: 1/5;
+	border: 20px solid #f1c232;
+	border-radius: 50%;
+	margin-bottom: 100px;
+}
+
+#designer2 {
+	grid-column: 5/9;
+	color: #000;
+	text-align: center;
+	font-size: large;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+#designer2 p {
+	
+	font-size: medium;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+#designer2 h3 {
+	text-align: right;
+	margin-right: 40px;
+	}
+#designer2 h3::after {
+	content :'\2B95';
+	right: 0px;
+}
+#designer3 img{
+	grid-column: 9/-1;
+	border: 20px solid #f1c232;
+	border-radius: 50%;
+}
+#look-book {
+	background-color: #f1c232;
+	margin-top: -100px;
+	padding-bottom: 90px;
+    display: flex;
+	
+
+}
+
+
+#look-book h1 {
+	padding-left: 150px;
+	padding-top:50px;
+	font-size: xx-large;
+	color: black;
+    background-color: #f1c232;
+}
+
+#about-image {
+	border-radius: 30px;
+	border: 8px solid #bc652e;
+	margin-right: 50px;
+	margin-top: 180px;
+	padding:10px
+   
+	
+	
+}
+
+#look-book h3{
+	color: #000;
+    position: absolute;
+	margin-left: 1600px;
+	margin-top: 600px;
+}
+#look-book h3::after {
+	content :'\2B95';
+	right: 0px;
+}
+
+
+#order-text {
+	grid-column: 1/6;
+    color: black;
+	margin-top: 80px;
+	
+}
+#order-text { 
+	font-weight: bolder;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#order-text h3 {
+	text-align: left;
+	margin-right: 40px;
+	
+	}
+
+ #contact-form1 {
+	grid-column: 6/12;
+	margin-top: -250px;
+	margin-bottom: -90px;
+ }
+ 
+ input, textarea {
+	padding: 22px;
+	border: 4px solid #bc652e;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	font: inherit;
+ }
+ 
+ #contact-form1 textarea {
+	height: 130px;
+ }
+ 
+ #contact-form1 form {
+	display: flex;
+	flex-direction: column;
+ } 
+ 
+ input[type="submit"] {
+	padding: 16px 32px;
+    border: 4px solid #bc652e;
+	align-self: flex-end;
+	
+ }
+
+ 
+/*Common page elements  */
+
+#footer-con {
+	background-color:#c4ddd8;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #000;
+}
+
+#loca {
+	grid-column: 1/4;
+    height: 40px;
+	color: #000;
+	margin-bottom: 100px;
+    
+}
+
+#loca h3 {
+ margin-left: -70px;
+ position: relative;
+ margin-top: 10px;
+}
+#loca ul {
+	text-align: left;
+	margin-left: -250px;
+	
+	margin-top: 50px;
+}
+
+
+#signup{
+grid-column:5/5;
+
+}
+#signup h3{
+	display: block;
+	width: 230px;
+	margin-left: -80px;
+    
+	margin-top: 1px;
+	
+	}
+.blank{
+	border: 3.5px solid #bc652e;
+	width: 260px;
+	height: 40px;
+	border-radius: 6%;
+	margin-top: 50px;
+	margin-left: -230px;
+} 
+
+#social {
+	grid-column: 9/-1;
+	
+	height: 70px;
+}
+#social p{
+	margin-top: 50px;
+	margin-left: -220px;
+}
+
+
+
+/* gallery page */
+
+#gallery-hero-con {
+	background-color: #aaaaaa;
+	background: url("https://via.placeholder.com/1920x580");
+	height: 580px;
+}
+
+#gallery-text {
+	grid-column: 1/9;
+	/* Remove as content will dictate height */
+	height: 200px;
+	margin-top: 100px;
+}
+
+#gallery-controls {
+	margin-top: 200px;
+	grid-column: 6/8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot {
+	background-color: #dddddd;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 5px;
+  }
+
+#gallery h2 {
+	grid-column: 1/-1;
+	text-align: center;
+  }
+
+.gallery-box {
+	background-color: #ddd;
+	grid-column: span 4 / span 4;
+	/* Remove as content will dictate height */
+	height: 507px;
+	margin-bottom: 20px;
+}
