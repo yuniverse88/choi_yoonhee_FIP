@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Remove this rule on your HTML elements as you start to fill them with content*/
+
+.box-color {
+   
+	text-align: center;
+	margin: 0;
+}
+
+
+div,p,body,header,footer,section,article,nav { 
+	margin: 0; 
+	padding: 0; 
+}	
+
+main img { 
+	border-radius: 20px;
+	margin: 0; 
+	padding: 0; 
+}
+
+/*html selectors*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden {
+	display: none;
+}
+
+
+
+#container {
+	margin: 0 auto;
+	width: 428px;
+	
+}
+
+
+.grid-con {
+	display: grid;
+	grid-template-columns: repeat(4, 85px);
+	grid-column-gap: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#header-con {
+	background-color: #c4ddd8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 40px;
+}
+#header-logo {
+	grid-column: 1/3;
+}
+
+#mobile-nav {
+	grid-column: 4/-1;
+}
+
+.burger {
+	height: 16px;
+	background-color:#aaa;
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* index page */
+
+#hero-con {
+	background-color: #e4b394;
+	
+	height: 750px;
+}
+#hero-con img {
+	border: 15px solid #bc652e;
+	margin-top: 30px;
+	margin-left: 8px;
+}
+#hero-text {
+	grid-column: 1/-1;
+	
+	height: 380px;
+	margin-top: 20px;
+}
+#tape {
+	position: absolute;
+	margin-top: 735px;
+}
+
+#designstory {
+	background-color: #c4ddd8;
+	height: 1030px;
+	position: relative;
+}
+
+#designstory h2 {
+	background-color: #c4ddd8;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+#designstory h3 {
+	text-align:center
+
+	
+}
+#designstory p{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+    text-align:center
+}
+#designstory img {
+	border: 15px solid #f1c232;
+	border-radius: 50%;
+	margin-left: 43px;
+	margin-bottom: 20px;
+}
+#mobile-slider-left {
+	position: absolute;
+	left: 0;
+	font-size: 120px;
+	color:#fff;
+	top: 200px;
+}
+
+#mobile-slider-right {
+	position: absolute;
+	right: 0;
+	font-size: 120px;
+	color:#fff;
+	top: 200px;
+}
+
+#lookbook {
+	height: 1800px;
+	background-color: #f1c232;
+}
+#lookbook h2 {
+	background-color:#f1c232;
+	text-align: center;
+	padding-top: 40px;
+	margin: 0;
+}
+
+.about-us-photo {
+	grid-column: 1/-1;
+	display: block;
+	border: 4px solid #bc652e;
+	padding:10px;
+	margin: 20px auto 0 auto;
+}
+
+#contact-us-con {
+	background-color: #edd1b9;
+	height: 500px;
+}
+input, textarea {
+	padding: 8px;
+	border: 2px solid #bc652e;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font: inherit;
+ }
+
+#contact-text {
+	margin: 30px 70px 40px 70px;
+ 
+}
+#contact-form form {
+	display: flex;
+	flex-direction: column;
+ } 
+
+#contact-form {
+	grid-column: 1/-1;
+	height: 100px;
+    background-color: #edd1b9;
+	
+ 
+
+}
+
+ input[type="submit"] {
+	padding: 10px 12px;
+    border: 2px solid #bc652e;
+	align-self: flex-end;
+	
+ }
+
+ 
+#footer-con {
+	height: 260px;
+	background-color: #c4ddd8;
+}
+
+#loca img{
+	height: 20px;
+	margin-top: 20px;
+	position:absolute;
+	
+}
+#loca h3 {
+	grid-column: 1/2;
+	margin-left: 25px;
+	margin-top: 20px;
+	
+
+}
+
+#loca ul{
+
+grid-column: 1/-1;
+
+}
+
+#signup {
+	
+	grid-column: 1/-1;
+}
+#signup img{
+	height: 20px;
+	margin-top: 8px;
+	position:absolute;
+}
+
+#signup h3{
+	grid-column: 1/-1;
+	margin-left: 25px;
+	margin-top: 0px;
+	padding-top: 7px;
+}
+
+.blank {
+	border: 2px solid #bc652e;
+	width: 200px;
+	height: 20px;
+	margin-left: 40px;
+	border-radius: 30px;	
+	
+}
+#social {
+	
+	grid-column: 1/-1;
+	margin-top: 20px;
+}
+
+#social img {
+	height: 20px;
+}
+#social h3 {
+	grid-column: 2/-1;
+	margin-left: -20px;
+	margin-top: -1px;
+	padding-top: 3px;
+}
+#social p {
+	grid-column: 3/-1;
+	margin-top: -30px;
+	margin-left: -50px;
+ 
+}
+	
+	/* gallery page */
+
+#hero-gallery-con {
+	background-color: #aaaaaa;
+	background: url("https://via.placeholder.com/428x458");
+	height: 458px;
+}
+
+#hero-gallery-text {
+	grid-column: 1/-1;
+	/* Remove as content will dictate height */
+	height: 350px;
+	margin-top: 20px;
+}
+
+#gallery-controls {
+	grid-column: 1/-1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.dot {
+	background-color: #dddddd;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 5px;
+  }
+
+#gallery h2 {
+	text-align: center;
+	grid-column: 1/-1;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.gallery-box {
+	grid-column: 1/-1;
+	background-color: #ddd;
+	/* Remove as content will dictate height */
+	height: 507px;
+	margin-bottom: 20px;
+}
+
+#footer-newsletter2 {
+	margin-top: 20px;
+	height:40px;
+	grid-column: 1/3;
+	background-color: #ddd;
+}
+
+
+
+
+
+
+
+
