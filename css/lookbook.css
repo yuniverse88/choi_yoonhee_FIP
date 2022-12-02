@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Remove this rule on your HTML elements as you start to fill them with content*/
+
+.box-color {
+	color: #fff;
+	background: rgb(187, 124, 207);
+	text-align: center;
+}
+
+
+div,p,body,header,footer,section,article,nav { 
+	margin: 0; 
+	padding: 0; 
+}	
+
+
+
+/*html selectors*/
+
+body {
+	margin: 0;
+    padding: 0;
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+/* Remove underlines from links */
+
+a {
+	text-decoration: none;
+}
+
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden {
+	display: none;
+}
+
+
+
+#container {
+	margin: 0 auto;
+	width: 1920px;
+	background-color:#c4ddd8;
+}
+
+/* this is our grid based off of our XD file */
+.grid-con {
+	display: grid;
+	grid-template-columns: repeat(12, 122px);
+	grid-column-gap: 16px;
+	padding-left: 140px;
+	padding-right: 140px;
+}
+
+#header-con {
+	background-color: #c4ddd8;
+	padding-top: 30px;
+	padding-bottom: 30px;
+  
+	
+}
+
+#logo {
+	grid-column: 1/3;
+	height: 50px;
+	
+}
+
+#login{
+	grid-column: 13/-1;
+	height: 50px;
+}
+
+#main-nav ul{
+   
+   
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 350px;
+ 
+
+}
+#main-nav li{
+	
+	display: inline-block;
+	margin-right: 80px;
+	font-size:30px;
+   
+    
+
+
+}
+
+
+
+/* gallery page */
+
+#gallery-hero-con img {
+	margin-left: -140px;
+	
+}
+
+
+#gallery-controls {
+	margin-top: 200px;
+	grid-column: 6/8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot {
+	color: #000;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin: 5px;
+  }
+
+#gallery {
+padding-left: 100px;
+
+
+}
+
+#gallery h2 {
+	font-size: 40px;
+	color: #000;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	padding-left: 70px;
+	
+	margin-bottom: 30px;
+    grid-column: 1/-1;
+		  
+  }
+
+   
+.gallery-box {
+	
+	grid-column: span 4 / span 4;
+	
+	margin-bottom: 90px;	
+	
+	height: 630px;
+	width: 510px;
+	margin-left: 45px;
+	margin-bottom: 130px;
+		
+	
+	
+}
+
+#gallery img {
+	border-radius: 6%;
+	border: 18px solid #0b1546;
+	
+}
+
+
+ 
+/*Common page elements  */
+
+#footer-con {
+	background-color: #b8bede;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #000;
+}
+
+#loca {
+	grid-column: 1/4;
+    height: 40px;
+	color: #000;
+	margin-bottom: 100px;
+    
+}
+
+#loca h3 {
+ margin-left: -70px;
+ position: relative;
+ margin-top: 10px;
+}
+#loca ul {
+	text-align: left;
+	margin-left: -250px;
+	
+	margin-top: 50px;
+}
+
+
+#signup{
+grid-column:5/5;
+
+}
+#signup h3{
+	display: block;
+	width: 230px;
+	margin-left: -80px;
+    
+	margin-top: 1px;
+	
+	}
+.blank{
+	border:2px solid black;
+	width: 230px;
+	height: 32px;
+	border-radius: 30px;
+	margin-top: 50px;
+	margin-left: -230px;
+} 
+
+#social {
+	grid-column: 9/-1;
+	
+	height: 70px;
+}
+#social p{
+	margin-top: 50px;
+	margin-left: -220px;
+}
+
+
+
+/* gallery page */
+
+
+
+
+#gallery-controls {
+	margin-top: 200px;
+	grid-column: 6/8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot {
+	background-color: rgb(92, 92, 92);
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	margin: 5px;
+	margin-bottom: -300px;
+	
+  }
+
+
+
