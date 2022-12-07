@@ -1,4 +1,4 @@
-# choi_yoonhee_FIP
+# CapCap web and mible page
 
 It is my FIP. 
 My Theme is Cap. The CapCap company is specailized in ordering custumized cap.
@@ -16,7 +16,7 @@ If I can my own business in the future, I would like to build CapCap.
 
 ## Credits
 
-All images are copyright by CBC
+All images are copyright by Yoonhee Choi
 
 ## License
-none
+MIT
